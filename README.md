@@ -47,16 +47,43 @@ This project would be a time series problem which could be modelled by DL networ
 # Methodology
 
 ## Data Prepocessing
-Data prepocessing would be an important part of this project. 
+Data prepocessing would be an important part of this project, which includes the steps we need to follow to transform or encode data so that it may be easily parsed by the machine. This would be the first step after we actually have access to the dataset. The majority of the real-world datasets for machine learning are highly susceptible to be missing, inconsistent, and noisy due to the heterogeneous origin. Data prepocessing should contain the following part:
+### Data Cleaning
+Missing values;
+Noisy Data; 
+Removing outliers
+### Data Transformation
+Generalization; 
+Normalization
+### Label Encoding
+One-hot encoding
+
 ## Feature Selection
-
-## Model
-
+After having prepocessing, we need to do feature selection. This dataset would contain many variables, not every of them would be useful in our modelling part. Thus finding right approach to select the useful variables with explainablity is crucial for the following modelling.
+We can first try some statistical methods, such as principle component analysis, which is a widely used dimensionality reduction method, by transforming a large set of variables into a smaller one that still contains most of the information in the large set. 
+# Goal of this project
+The primary goal of this project is to have this paper published.
+## subgoal if this project
+Increase coding ability and know how to work in group.
 
 # Assignments
-
-## Efforts
-
-
+## Effort
+At least 20 hrs per week's effort would be commited to this project. By the end of the semester, a series of reading notes would record my learning track of related fields.
 ## Schedule
+The further part should still be decided accordingly, but it must be clear that all related paper work should be finished by Nov 24th.
+ 
+| week             | Content       | Code                       | paper progress |
+| -------------    | ------------- |----------------------------|--------------- |
+| week of Oct 2    | paper 1,2     |Data Prepocessing Beginning |Begin to write the introduction |
+| week of Oct 9    | paper 3,4     |Data Final review and usable evaluation    |Write the review part |
+| week of Oct 16   | paper 5,6     |Model Building              |  |
+| week of Oct 23   | paper 7,8     |Model Building              |  |
+| week of Oct 30   | paper 9,10    |Model Building              |  |
+| week of Nov 6    |               |Model Building              |  |
+| week of Nov 13   |               |                            |  |
+| week of Nov 20   |               |                            |  |
+| week of Nov 27   | paper reading |                            |Paper submission |
+| week of Dec 4    | paper reading |                            |                |
+
+
 
